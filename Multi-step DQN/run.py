@@ -7,7 +7,7 @@ gym: 0.8.0
 
 
 import gym
-from RL_brain import DoubleDQN
+from agent_1 import DoubleDQN
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
