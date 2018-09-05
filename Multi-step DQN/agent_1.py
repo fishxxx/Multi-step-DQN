@@ -114,8 +114,7 @@ class DoubleDQN:
         #     tf.float32, [None, self.n_features], name='s_2')
         # self.s_3 = tf.placeholder(
         #     tf.float32, [None, self.n_features], name='s_3')
-        # self.s_4 = tf.placeholder(
-        #     tf.float32, [None, self.n_features], name='s_4')
+        
 
         with tf.variable_scope('target_net'):
             c_names = ['target_net_params', tf.GraphKeys.GLOBAL_VARIABLES]
